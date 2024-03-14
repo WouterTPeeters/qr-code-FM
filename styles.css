@@ -1,0 +1,29 @@
+/* Global settings */
+:root {
+    --primary-color-1: hsl(0, 0%, 100%);
+    --primary-color-2: hsl(212, 45%, 89%);
+    --primary-color-3: hsl(220, 15%, 55%);
+    --primary-color-4: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body {
+    background-color: var(--primary-color-2);
+    max-width: 1440px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background-color: var(--primary-color-1);
+    width: 320px;
+    height: 473px;
+}
+
+
